@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+#PasswordError {
+  display:none;
+  color: black;
+  position: relative;
+  margin: 10px 0;
+}
+#letter{
+	color:red;
+}
+#capital{
+	color:red;
+}
+#number{
+	color:red;
+}
+#length{
+	color:red;
+}
