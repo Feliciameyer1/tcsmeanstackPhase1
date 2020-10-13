@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+          <a class="navbar" href="index.html">Home</a>
+          <a class="navbar" href="aboutus.html">About Us</a>
+          <a class="navbar" href="contact.html">Contact Us</a>
+          <a class="navbar" href="login.html">Login</a>
+           <a class="navbar" href="userregistration.html">Registration</a>
+          <a class="navbar" href="blog.html">Blogs</a>
+            
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+              </form>
+        </nav>
+        </header>
+        <div class="container">
+          <h1 class="text-center">User Registration</h1>
+            <form >
+                <div class="form-group">
+                  
+                    <label for="username" class="col-form-label-lg">Username:</label>
+                    <input type="text" class="form-control" id="username">
+                 
+                  </div>
+
+                  <div class="form-group">
+                    
+                    <label for="exampleInputPassword1"class="col-form-label-lg" >Password:</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  
+                  </div>
+                  <div class="form-group">
+                    <label for="fname"class="form-check-label col-form-label-lg" >First name</label>
+                    <input type="text" id=fname placeholder="First name" required class="form-control">
+                    
+                  </div>
+                  <div class="form-group">
+                    <label for="lname"class="form-check-label col-form-label-lg" >Last name</label>
+                    <input type="text" id=lname placeholder="Last name" required class="form-control" >
+                  </div>
+                  <div class="form-group form-group-lg">
+                    <label class="col-form-label-lg">Gender: </label>
+                  <div class="form-check form-check-inline">
+                      
+                      <label for="male" class="form-check-label col-form-label-lg">Male</label>
+                      <input type="radio" class="form-check-input"id="male" value=Male>
+                      
+                  </div>
+                  <div class="form-check form-check-inline">
+                   
+                    <label for="female" class="form-check-label col-form-label-lg">Female</label>
+                    <input type="radio" class="form-check-input "id="female" value=Female>
+                    
+                </div>
+                
+                  <div class="form-group">
+                    <label for="phone" class="col-form-label-lg">Phone number:</label>
+                  <input type="number" id="phone" placeholder="(###)-###-####" required class="form-control">
+                  </div>
+                  <div class="form-group">
+                  <label for="email" class="col-form-label-lg">Email:</label>
+                  <input type="email" id=email placeholder="Email Address" required class="form-control ">
+              </div>
+             
+
+            </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+</body>
+
+</html>
